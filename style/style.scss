@@ -1,0 +1,46 @@
+$header1: rem;
+$header2: 3.5rem;
+$header3: 2rem;
+$header4: 1.5rem;
+$text: 2rem;
+$gradient: linear-gradient(to left, #35d39f, #38a4d3);
+$background-color: #154353;
+$gray-text: #2c2c2c;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin position($top) {
+  top: $top;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
+
+@import "global";
+@import "cover";
+@import "fashion";
+@import "about";
+@import "register";
+@import "contact";
+@import "login";
+@import "resposive";
+@import "account";
+@import "checkout";

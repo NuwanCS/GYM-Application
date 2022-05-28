@@ -1,0 +1,117 @@
+.contact-cover {
+  height: 100vh;
+  width: 100%;
+  //   background-image: url("../Resources/anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+  //   background-size: cover;
+  //   background-position: bottom center;
+  //   background-repeat: no-repeat;
+  //   object-fit: cover;
+  //   background: linear-gradient(
+  //     to bottom,
+  //     rgba(0, 0, 0, 0.1),
+  //     rgba(0, 0, 0, 0.3)
+  //   );
+  background: rgba(0, 0, 0, 1);
+  //object-fit: contain;
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    // width: 100%;
+    z-index: 1;
+    object-fit: contain;
+  }
+  h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    span {
+      color: #f65e13;
+    }
+    font-size: 4rem;
+  }
+
+  form {
+    height: 88vh;
+    width: 45%;
+    position: absolute;
+    top: 12vh;
+    left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    z-index: 2;
+  }
+  .contact-container {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    background: #171714;
+    font-size: 1.2rem;
+    .contact-number {
+      height: 12vh;
+      width: 100%;
+      display: flex;
+      //justify-content: space-around;
+      align-items: center;
+      //   width: 95%;
+      margin-bottom: 1.5rem;
+      color: #c4c4c4;
+      .telephone {
+        height: 12.5vh;
+        width: 6.5vw;
+        z-index: 5;
+        margin: 0 2rem;
+
+        svg {
+          height: 90%;
+          width: 90%;
+          object-fit: cover;
+        }
+      }
+      h4 {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  button {
+    margin-top: 1.5rem;
+    padding: 1.5rem 2.6rem;
+    color: white;
+    background-color: #f65e13;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  input,
+  textarea {
+    background: rgba($color: #c4c4c4, $alpha: 0.25);
+    outline: none;
+    border: none;
+    padding: 1rem 1.5rem;
+    width: 95%;
+    margin: 1rem 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+  }
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}

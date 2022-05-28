@@ -1,0 +1,94 @@
+.reg-cover {
+  height: 100vh;
+  width: 100%;
+  background: black;
+}
+.reg-cover img {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.reg-cover h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+}
+.reg-cover h2 span {
+  color: #f65e13;
+}
+.reg-cover form {
+  height: 88vh;
+  width: 55%;
+  position: absolute;
+  top: 12vh;
+  left: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.reg-cover .reg-container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background: #171714;
+  font-size: 1.2rem;
+}
+.reg-cover .reg-container p {
+  font-size: 1.2rem;
+}
+.reg-cover .reg-container p a {
+  color: #f65e13;
+}
+.reg-cover .reg-container .gender {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  margin: 1rem 0;
+  color: #c4c4c4;
+}
+.reg-cover .reg-container .gender .male,
+.reg-cover .reg-container .gender .female {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  width: 15%;
+}
+.reg-cover button {
+  margin-top: 1.5rem;
+  padding: 1.5rem 2.6rem;
+  color: white;
+  background-color: #f65e13;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.reg-cover input {
+  background: rgba(196, 196, 196, 0.25);
+  outline: none;
+  border: none;
+  padding: 1rem 1.5rem;
+  width: 95%;
+  margin: 1rem 0;
+  color: white;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}/*# sourceMappingURL=register.css.map */

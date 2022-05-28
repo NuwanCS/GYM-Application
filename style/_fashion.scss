@@ -1,0 +1,61 @@
+.fashion-header {
+  color: white;
+  //position: fixed;
+  top: 0;
+  width: 95%;
+  margin: 0 0 0 auto;
+  margin: 0;
+  text-align: center;
+  padding-top: 2rem;
+  z-index: 20;
+  height: 10vh;
+}
+
+.fashion-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  top: 0;
+  background-color: black;
+  color: white;
+  position: fixed;
+  z-index: 10;
+  ul {
+    li {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.fashion-cover {
+  height: 110vh;
+  width: 100%;
+  //   background-image: url("../Resources/anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+  //   background-size: cover;
+  //   background-position: bottom center;
+  //   background-repeat: no-repeat;
+  //   object-fit: cover;
+  //   background: linear-gradient(
+  //     to bottom,
+  //     rgba(0, 0, 0, 0.1),
+  //     rgba(0, 0, 0, 0.3)
+  //   );
+  //   background: rgba(101, 101, 101, 0.3);
+}
+
+.bg-img {
+  height: 100%;
+  width: 100%;
+  z-index: 30;
+  margin-bottom: -150px;
+  object-fit: cover;
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+}
+
+.fashion-products {
+  height: 80vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.1);
+}
